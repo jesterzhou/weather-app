@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+html {
+  height: 100vh;
+  box-sizing: border-box;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+body {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+input#location {
+  background-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: 15px;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  border: 0.9px;
+  border-color: rgb(0, 0, 0);
+  border-style: dotted;
+  outline: none;
+  font-style: normal;
+  font-size: 32px;
+  font-family: "Space-Mono", monospace;
+}
+input#location ::-moz-placeholder {
+  color: grey;
+}
+input#location :-ms-input-placeholder {
+  color: grey;
+}
+input#location ::placeholder {
+  color: grey;
+}
+
+p {
+  margin-top: -1px;
+  margin-left: 5px;
+  font-family: "Space-Mono", monospace;
+  font-weight: 400;
+  font-size: 17px;
+}/*# sourceMappingURL=index.css.map */

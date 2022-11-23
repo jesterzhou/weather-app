@@ -1,0 +1,54 @@
+$color-palette: rgb(104, 10, 10);
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+$space-mono: 'Space-Mono', monospace;
+
+html {
+    height: 100vh;
+    box-sizing: border-box;
+    
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+body {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+}
+
+input#location {
+
+    background-color: rgb(255, 255, 255);
+
+    margin-top: 15px;
+    margin-left: 15px;
+    
+    width: auto; //width of input box
+    height: auto; //height of input box
+    box-sizing: border-box; //box type: border box
+
+    border: 0.9px; //border size: 2px
+    border-color: rgb(0, 0, 0); //border color: black
+    border-style: dotted; //border type: dotted
+
+    outline: none; //outline: none
+
+    font-style: normal; //font style: normal
+    font-size: 32px; //font size: 32px 
+    font-family: $space-mono; //input box font: space mono
+
+    ::placeholder{
+        color: grey; //placeholder color: grey
+    }
+}
+
+p {
+    margin-top: -1px;
+    margin-left: 5px;
+    font-family: $space-mono;
+    font-weight: 400;
+    font-size: 17px;
+}
+
