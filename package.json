@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "forecast of weather",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesterzhou/weather-app.git"
+  },
+  "author": "Jester Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesterzhou/weather-app/issues"
+  },
+  "homepage": "https://github.com/jesterzhou/weather-app#readme",
+  "dependencies": {
+    "sass": "^1.55.0",
+    "three": "^0.146.0"
+  }
+}
